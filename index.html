@@ -112,7 +112,7 @@
 
         // Logica per l'età
         if (eta === "0-1") {
-            punteggio += (shunt === "yes") ? 0 : 10;
+            punteggio += 0;  // Nessun punteggio aggiuntivo per l'età 0-1 mese
         } else if (eta === "1-6") {
             punteggio += 10;
         } else if (eta === "6-12") {
